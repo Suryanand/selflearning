@@ -8,6 +8,8 @@ import { FooterComponent } from './header_sidebar_footer/footer/footer.component
 import { LoginComponent } from './components/login/login.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { NumberOnlyDirective } from './number-only.directive';
+import { MaskPipe } from './mask.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     FooterComponent,
     LoginComponent,
     RegistrationComponent,
-    DashboardComponent
+    DashboardComponent,
+    NumberOnlyDirective,
+    MaskPipe
   ],
   imports: [
     BrowserModule,
