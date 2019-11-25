@@ -10,6 +10,8 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NumberOnlyDirective } from './number-only.directive';
 import { MaskPipe } from './mask.pipe';
+import { DashboardTwitterBlockComponent } from './components/dashboard-twitter-block/dashboard-twitter-block.component';
+import { DashboardFixedIssuesComponent } from './components/dashboard-fixed-issues/dashboard-fixed-issues.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MaskPipe } from './mask.pipe';
     RegistrationComponent,
     DashboardComponent,
     NumberOnlyDirective,
-    MaskPipe
+    MaskPipe,
+    DashboardTwitterBlockComponent,
+    DashboardFixedIssuesComponent
   ],
   imports: [
     BrowserModule,

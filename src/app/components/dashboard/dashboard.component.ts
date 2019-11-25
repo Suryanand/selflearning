@@ -18,6 +18,8 @@ export class DashboardComponent implements OnInit {
   usedCustomText: string;
   usedTopIconBackground: string;
   players : any = data.players;
+  followers: any = data.twitterFollowers;
+  fixedIssues: any = data.fixedIssues;
   constructor(private router: Router, private loginService: LoginService) { }
 
   ngOnInit() {
@@ -40,5 +42,12 @@ export class DashboardComponent implements OnInit {
     }
     
   }
+  followersCount(){ //function returns the count of followers from Child 
+    
+  }
 
+  issueCount(){
+    this.fixedIssues = this.fixedIssues + 1;
+    console.log("Added Inside Parent TS file");
+  }
 }

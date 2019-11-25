@@ -9,6 +9,8 @@
     {"id":4 , "name": "Yuvi", "salary": "21000" ,"country": "India", "phone" : "1234567893"},
     {"id":5 , "name": "Dravid", "salary": "22000" ,"country":"India", "phone" : "1234567894" },
     {"id":6 , "name": "Ganguly", "salary": "35000" ,"country":"India", "phone" : "1234567895" }
-  ]
+  ],
+  "twitterFollowers": 500,
+  "fixedIssues" : 75
 
 }
